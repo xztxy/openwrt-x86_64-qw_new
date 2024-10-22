@@ -99,7 +99,7 @@ jobs:
     - name: Change banner
       run: |
         cd openwrt
-        wget https://raw.githubusercontent.com/Qliangw/openwrt-x86_64-qw/main/banner
+        wget https://raw.githubusercontent.com/xztxy/openwrt-x86_64-qw_new/refs/heads/main/banner
         mv banner package/base-files/files/etc/banner
 
 #    - name: SSH connection to Actions
